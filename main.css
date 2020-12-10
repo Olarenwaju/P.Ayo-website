@@ -10816,6 +10816,13 @@ body {
 
 .bg-image {
   background-image: url(resources/img/main-bg-2.png);
+}
+
+.bg-image-3 {
+  background-image: url(resources/img/main-bg-3.png);
+}
+
+.bg-image, .bg-image-3 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -10836,7 +10843,7 @@ body {
 
 .line {
   border-bottom: 3px solid #fff;
-  width: 35%;
+  width: 25%;
 }
 
 .bg-white-2 {
@@ -10845,7 +10852,14 @@ body {
 }
 
 .express {
-  border: 2px solid #00000031;
+  border: 1px solid #00000010;
+}
+
+.express:hover {
+  -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.041);
+          box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.041);
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .bg-tapes-custom {
@@ -10881,14 +10895,6 @@ h5::after {
   position: relative;
 }
 
-.qte-position {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
 .h6-custom-2 {
   font-size: 14px;
   line-height: 21px;
@@ -10898,7 +10904,39 @@ h5::after {
   background-color: #262626;
 }
 
+/*------ Prophetic School CSS ------------ */
+/*-----------------------------------------*/
 .rounded-live {
   border-radius: .5rem;
+}
+
+.spring-green {
+  background-color: green;
+}
+
+.spring-grey {
+  background-color: grey;
+}
+
+.spring-brown {
+  background-color: brown;
+}
+
+.tb-rad {
+  border: 1px solid rgba(128, 128, 128, 0.363);
+  -webkit-box-shadow: rgba(128, 128, 128, 0.199);
+          box-shadow: rgba(128, 128, 128, 0.199);
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.table th,
+.table td {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.bg-reg-foot {
+  background-image: url(resources/img/bg-reg-foot.png);
 }
 /*# sourceMappingURL=main.css.map */

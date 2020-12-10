@@ -11,32 +11,50 @@
 @media (max-width: 992px) { 
 
 
-    .pl-custom-3 {
-        padding-left: 20px;
-    }
-
-    .tapes-text {
-        text-align: center;
-    }
+    
 }
 
 @media (max-width : 990px) {
 
 
-    .container {
-        width: 900px;
-    }
 }
 
 
-@media (max-width: 768px) {
-    
-    .event-text {
-        text-align: center;
+@media (max-width: 844px) {
+    .custom-h6-2 {
+        font-size: 20px;
+        padding: 0px 10px 0px 10px;
     }
 
 }
 
-@media (min-width: 576px) { 
+@media (max-width: 600px) { 
+    .cus-pad {
+        padding-left: 45px;
+    }
+
+    .custom-text,.custom-text-2 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    .cus-pad-2 {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .cus-h2 {
+        font-size: 22px;
+    }
+
+    .custom-h6 {
+        font-size: 12px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .custom-h6-2 {
+        font-size: 20px;
+        padding: 0px 10px 0px 10px;
+    }
     
 }
