@@ -47,14 +47,17 @@
         font-size: 22px;
     }
 
+   
+    .custom-h6-2 {
+        font-size: 14px;
+        padding: 0px 8px 0px 8px;
+        line-height: 20px;
+    }
+
     .custom-h6 {
         font-size: 12px;
         padding: 0px 10px 0px 10px;
     }
 
-    .custom-h6-2 {
-        font-size: 20px;
-        padding: 0px 10px 0px 10px;
-    }
     
 }

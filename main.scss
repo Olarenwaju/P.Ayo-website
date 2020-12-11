@@ -29,6 +29,14 @@ body {
     overflow-x: hidden;
 }
 
+.dropdown-menu {
+    background-color: #5c5a57 !important;
+}
+
+.dropdown-item.active {
+    background-color: transparent !important;
+}
+
 .h6-custom{
     font-size: 12px;
 }
@@ -133,15 +141,15 @@ h5::after {
 
 
 .spring-green{
-    background-color: green;
+    background-color: #38b545;
 }
 
 .spring-grey{
-    background-color: grey;
+    background-color: #262626;
 }
 
 .spring-brown{
-    background-color: brown;
+    background-color:#5a2200;
 }
 
 .tb-rad{
@@ -162,4 +170,8 @@ h5::after {
 
 .bg-reg-foot{
     background-image: url(resources/img/bg-reg-foot.png);
+}
+
+.custom-line-height {
+    line-height: 25px;
 }
